@@ -1,0 +1,958 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+*{
+    font-family: Lato;
+}
+a{
+    text-decoration: none;
+}
+i{
+    color: #006DFE;
+}
+.more-link{
+    margin-right: 16px;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.header{
+    background-image: url(../image/Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 62px;
+    .logo{
+        img{
+            cursor: pointer;
+        }
+    }
+    &-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-container{
+        padding-right: 285px;
+        padding-left: 285px;
+    }
+
+}
+nav ul li{
+    display: inline;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    a{
+        color: white;
+        margin-right: 82px;
+        font-size: 18px;
+    }
+}
+.offer{
+    padding-top: 265px;
+    &-title{
+        font-weight: 500;
+        font-size: 50px;
+        color: white;
+        max-width: 619px;
+        margin: 0;
+        margin-bottom: 22px;
+    }
+    &-text{
+        font-size: 16px;
+        color: white;
+        max-width: 546px;
+        line-height: 24px;
+        margin: 0;
+        margin-bottom: 61px;
+    }
+    &-box{
+        padding-bottom: 376px;
+        &-container{
+            padding-right: 363px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .button{
+            a{
+                color: white;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 24px;
+                background-color: #1B7DFF;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                padding-right: 39px;
+                padding-left: 39px;
+            }
+        }
+        .direction{
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #BFC0C5;
+            width: 297px;
+            &-circle{
+                margin-right: 23px;
+            }
+            &-text{
+                &-item{
+                    color: white;
+                    font-size: 18px;
+                    line-height: 65px;
+                    font-weight: 500;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+.more-link{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #006DFE;
+}
+.position__introduce{
+    position: relative;
+    top: -165px;
+.introduce{
+    background-color: white;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    &-container{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    &-title{
+        font-weight: 500;
+        font-size: 35px;
+        color: #102746;
+        margin: 0;
+        margin-bottom: 120px;
+    }
+    &-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .greet-image{
+            margin-bottom: 30px;
+        }
+        .greetings{
+            &-title{
+                font-weight: 400;
+                font-size: 18px;
+                color: black;
+                margin: 0;
+                margin-bottom: 27px;
+            }
+            &-text{
+                font-size: 16px;
+                color: black;
+                max-width: 300px;
+                line-height: 24px;
+                margin: 0;
+                margin-bottom: 40px;
+            }
+         }
+      }
+   }
+}
+.content{
+    margin-bottom: 150px;
+    &-place-bottom__flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        right: 20px;
+    }
+    &-place-two{
+        width: 619px;
+        height: 354px;
+    }
+    &-text{
+        font-weight: 700;
+        font-size: 50px;
+        color: white;
+    }
+    &-container{
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    &-place{
+    }
+    .image-item-three{
+        margin-right: 20px
+    }
+    .image-item-four{
+        margin-right: 20px
+    }
+    &-city{
+        &-top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            img{
+                position: relative;
+                right: 20px;
+                margin-right: 70px;
+            }
+        }
+    }
+    &-title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+    &-title-text{
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 52px;
+            color: #102746;
+            margin: 0;
+    }
+    &-title-text::after{
+        content: "";
+        display: block;
+        width: 253px;
+        height: 2px;
+        background-color: #006DFE;
+    }
+}
+.choice{
+    margin-bottom: 140px;
+    .neighbourhood{
+        display: flex;
+        justify-content: space-between;
+        &-descr-box{
+            width: 519px;
+            margin-bottom: 45px;
+        }
+        &-text{
+            &-title{
+                font-weight: 500;
+                font-size: 30px;
+                color: #102746;
+                max-width: 357px;
+                margin: 0;
+                margin-top: 30px;
+                margin-bottom: 45px;
+            }
+            &-item{
+                font-size: 16px;
+                line-height: 24px;
+                color: #102746;
+                max-width: 519px;
+                margin: 0;
+                margin-bottom: 94px;
+            }
+        }
+    }
+    .prefecture{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 110px;
+        &-descr-box{
+            width: 519px;
+            margin-bottom: 58px;
+        }
+        &-text{
+            &-title{
+                font-weight: 500;
+                font-size: 30px;
+                color: #102746;
+                margin: 0;
+                margin-bottom: 85px;
+                margin-top: 30px;
+            }
+            &-item{
+                font-size: 16px;
+                line-height: 24px;
+                color: #102746;
+                margin: 0;
+            }
+        }
+    }
+}
+.places{
+    margin-bottom: 150px;
+    .content-title-text{
+        margin-bottom: 65px;
+    }
+    &-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        &-one{
+            &-container{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 25px;
+                padding-left: 25px;
+                }
+            &-name{
+                &-title{
+                font-weight: 500;
+                color: white;
+                font-size: 18px;
+                text-transform: uppercase;
+                margin: 0;
+                }
+            }
+            &-info{
+                background-color: #15182499;
+                position: relative;
+                top: 327px;
+                .likes-comments{
+                    display: flex;
+                    align-items: center;
+                    .likes{
+                        display: flex;
+                        align-items: center;
+                        margin-right: 10px;
+                        &-image{
+                            img{
+                                width: 16px;
+                                height: 13px;
+                            }
+                        }
+                    }
+                 }
+                    span{
+                        color: white;
+                        margin-right: 4px;
+                        font-size: 16px;
+                    }
+                    .comments{
+                        display: flex;
+                        align-items: center;
+                        &-image{
+                            img{
+                                width: 16px;
+                                height: 13px;
+                            }
+                        }
+                    }
+                }
+            &-bg{
+                background-image: url(../image/nagoya.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 386px;
+                height: 377px;
+                margin-bottom: 45px;
+            }
+        }
+        &-two{
+                &-container{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    padding-right: 25px;
+                    padding-left: 25px;
+                    }
+                &-name{
+                    &-title{
+                    font-weight: 500;
+                    color: white;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    margin: 0;
+                    }
+                }
+                &-info{
+                    background-color: #15182499;
+                    position: relative;
+                    top: 327px;
+                    .likes-comments{
+                        display: flex;
+                        align-items: center;
+                        .likes{
+                            display: flex;
+                            align-items: center;
+                            margin-right: 10px;
+                            &-image{
+                                img{
+                                    width: 16px;
+                                    height: 13px;
+                                }
+                            }
+                        }
+                     }
+                        span{
+                            color: white;
+                            margin-right: 4px;
+                            font-size: 16px;
+                        }
+                        .comments{
+                            display: flex;
+                            align-items: center;
+                            &-image{
+                                img{
+                                    width: 16px;
+                                    height: 13px;
+                                }
+                            }
+                        }
+                    }
+                &-bg{
+                    background-image: url(../image/niigata.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    width: 386px;
+                    height: 377px;
+                    margin-bottom: 45px;
+                }
+        }
+        &-three{
+                &-container{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    padding-right: 25px;
+                    padding-left: 25px;
+                    }
+                &-name{
+                    &-title{
+                    font-weight: 500;
+                    color: white;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    margin: 0;
+                    }
+                }
+                &-info{
+                    background-color: #15182499;
+                    position: relative;
+                    top: 327px;
+                    .likes-comments{
+                        display: flex;
+                        align-items: center;
+                        .likes{
+                            display: flex;
+                            align-items: center;
+                            margin-right: 10px;
+                            &-image{
+                                img{
+                                    width: 16px;
+                                    height: 13px;
+                                }
+                            }
+                        }
+                     }
+                        span{
+                            color: white;
+                            margin-right: 4px;
+                            font-size: 16px;
+                        }
+                        .comments{
+                            display: flex;
+                            align-items: center;
+                            &-image{
+                                img{
+                                    width: 16px;
+                                    height: 13px;
+                                }
+                            }
+                        }
+                    }
+                &-bg{
+                    background-image: url(../image/osaka.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    width: 386px;
+                    height: 377px;
+                    margin-bottom: 45px;
+                }
+        }
+    }
+    &-bottom{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &-one{
+                &-container{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    padding-right: 25px;
+                    padding-left: 25px;
+                    }
+                &-name{
+                    &-title{
+                    font-weight: 500;
+                    color: white;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    margin: 0;
+                    }
+                }
+                &-info{
+                    background-color: #15182499;
+                    position: relative;
+                    top: 327px;
+                    .likes-comments{
+                        display: flex;
+                        align-items: center;
+                        .likes{
+                            display: flex;
+                            align-items: center;
+                            margin-right: 10px;
+                            &-image{
+                                img{
+                                    width: 16px;
+                                    height: 13px;
+                                }
+                            }
+                        }
+                     }
+                        span{
+                            color: white;
+                            margin-right: 4px;
+                            font-size: 16px;
+                        }
+                        .comments{
+                            display: flex;
+                            align-items: center;
+                            &-image{
+                                img{
+                                    width: 16px;
+                                    height: 13px;
+                                }
+                            }
+                        }
+                    }
+                &-bg{
+                    background-image: url(../image/saitama.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    width: 386px;
+                    height: 377px;
+                    margin-bottom: 45px;
+                }
+            }
+            &-two{
+                &-container{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    padding-right: 25px;
+                    padding-left: 25px;
+                    }
+                &-name{
+                    &-title{
+                    font-weight: 500;
+                    color: white;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    margin: 0;
+                    }
+                }
+                &-info{
+                    background-color: #15182499;
+                    position: relative;
+                    top: 327px;
+                    .likes-comments{
+                        display: flex;
+                        align-items: center;
+                        .likes{
+                            display: flex;
+                            align-items: center;
+                            margin-right: 10px;
+                            &-image{
+                                img{
+                                    width: 16px;
+                                    height: 13px;
+                                }
+                            }
+                        }
+                     }
+                        span{
+                            color: white;
+                            margin-right: 4px;
+                            font-size: 16px;
+                        }
+                        .comments{
+                            display: flex;
+                            align-items: center;
+                            &-image{
+                                img{
+                                    width: 16px;
+                                    height: 13px;
+                                }
+                            }
+                        }
+                    }
+                &-bg{
+                    background-image: url(../image/ueno.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    width: 386px;
+                    height: 377px;
+                    margin-bottom: 45px;
+                }
+            }
+            &-three{
+                &-container{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    padding-right: 25px;
+                    padding-left: 25px;
+                    }
+                &-name{
+                    &-title{
+                    font-weight: 500;
+                    color: white;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    margin: 0;
+                    }
+                }
+                &-info{
+                    background-color: #15182499;
+                    position: relative;
+                    top: 327px;
+                    .likes-comments{
+                        display: flex;
+                        align-items: center;
+                        .likes{
+                            display: flex;
+                            align-items: center;
+                            margin-right: 10px;
+                            &-image{
+                                img{
+                                    width: 16px;
+                                    height: 13px;
+                                }
+                            }
+                        }
+                     }
+                        span{
+                            color: white;
+                            margin-right: 4px;
+                            font-size: 16px;
+                        }
+                        .comments{
+                            display: flex;
+                            align-items: center;
+                            &-image{
+                                img{
+                                    width: 16px;
+                                    height: 13px;
+                                }
+                            }
+                        }
+                    }
+                &-bg{
+                    background-image: url(../image/shibuya.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    width: 386px;
+                    height: 377px;
+                    margin-bottom: 45px;
+                }
+            }
+            }
+            }
+ .about-place{
+            &-text{
+                color: #102746;
+                font-size: 16px;
+                max-width: 391px;
+                line-height: 24px;
+                margin: 0;
+                margin-bottom: 40px;
+            }
+}
+.places-btn{
+    background-color: #006DFE;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    padding-right: 19px;
+    padding-left: 19px;
+}
+.video{
+    margin-top: -3px;
+    img{
+        width: 100%;
+    }
+}
+.footer{
+    background-color: #0E1D28;
+    margin-top: -3px;
+    &-nav{
+        display: flex;
+        align-items: center;
+        &_item-title{
+            font-weight: 500;
+            font-size: 18px;
+        }
+        ul{
+            margin-right: 150px;
+            color: white;
+            li{
+                line-height: 24px;
+                a{
+                    color: white;
+                    line-height: 24px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    &-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        .big-logo{
+            cursor: pointer;
+        }
+    }
+}
+
+//Adaptive
+
+@media (max-width: 992px){
+    .container{
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+    .header{
+        background-position: center;
+    }
+    .header-nav{
+        flex-direction: column;
+        .logo{
+            img{
+                margin-bottom: 30px;
+            }
+        }
+        .nav-box{
+            text-align: center;
+            a{
+                margin-right: 40px;
+            }
+        }
+    }
+    .offer{
+        padding-top: 95px;
+        margin-bottom: 22px;
+        .offer-title{
+            text-align: center;
+        }
+        &-text{
+            margin-bottom: 61px;
+            text-align: center;
+        }
+        &-box-container{
+            flex-direction: column;
+            padding: 0;
+            .direction{
+                margin-bottom: 50px;
+            }
+        }
+    }
+    .introduce{
+        &-title{
+            text-align: center;
+        }
+        &-box{
+            flex-direction: column;
+        }
+        .greetings{
+            text-align: center;
+            margin-bottom: 100px;
+        }
+        .service{
+            text-align: center;
+            margin-bottom: 100px;
+        }
+        .business{
+            text-align: center;
+            margin-bottom: 100px;
+        }
+    }
+    .image-item-three{
+        margin-right: 20px;
+    }
+    .content{
+        margin-bottom: 150px;
+        &-title-item{
+            text-align: center;
+        }
+        &-title{
+            flex-direction: column;
+            &-text{
+                margin-bottom: 30px;
+                ::after{
+                    text-align: center;
+                }
+            }
+        }
+        &-city-top{
+            flex-direction: column;
+            img{
+                right: 0;
+                margin-right: 0;
+            }
+        }
+        &-place-bottom__flex{
+            flex-direction: column;
+            .image-item-three{
+                margin-right: 0;
+            }
+            .image-item-four{
+                margin-right: 0;
+            }
+        }
+    }
+    .prefecture{
+        flex-direction: column;
+        text-align: center;
+        &-descr-box{
+            margin: 0 auto;
+        }
+        &-text-item{
+            max-width: 692px;
+        }
+    }
+    .neighbourhood{
+        flex-direction: column;
+        text-align: center;
+        &-text{
+            margin-bottom: 50px;
+        }
+        .neighbourhood-text-title{
+            margin: 0 auto;
+            margin-bottom: 45px;
+        }
+        .neighbourhood-descr-box{
+            margin: 0 auto;
+        }
+    }
+    .places{
+        text-align: center;
+        &-bottom{
+            flex-direction: column;
+            &-one{
+                margin-bottom: 50px;
+            }
+            &-two{
+                margin-bottom: 50px;
+            }
+            &-three{
+                margin-bottom: 50px;
+            }
+    }
+        &-top{
+            flex-direction: column;
+            margin-bottom: 50px;
+            &-one{
+                margin-bottom: 50px;
+            }
+            &-two{
+                margin-bottom: 50px;
+            }
+     }
+  }
+  .footer{
+      .footer-nav ul{
+          margin-right: 0px;
+      }
+      &-box{
+          flex-direction: column;
+      }
+      .big-logo{
+          margin-bottom: 50px;
+      }
+      &-nav{
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 500px;
+      }
+  }
+}
+@media (max-width : 768px){
+    .header-container{
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    .container{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media (max-width: 576px){
+    .offer{
+        &-box-container{
+            .direction{
+                margin-bottom: 100px;
+            }
+        }
+        &-title{
+            font-size: 45px;
+        }
+    }
+    .header-nav{
+        .nav-box a{
+            margin-right: 30px;
+        }
+    }
+    .content{
+        &-city-top{
+            img{
+                width: 500px;
+                height: 300px;
+            }
+        }
+    }
+    .prefecture{
+        &-descr-box{
+            max-width: 476px;
+        }
+        &-image{
+            img{
+                width: 450px;
+            }
+        }
+    }
+    .neighbourhood{
+        &-descr-box{
+            max-width: 476px;
+        }
+        &-image{
+            img{
+                width: 450px;
+            }
+        }
+    }
+}
